@@ -1,4 +1,4 @@
-# Salesforce Durable  Streaming Demo
+# Salesforce Durable Streaming Demo
 This repository contains all the code you need to set up a Durable PushTopic Streaming and a Durable Generic Streaming client inside of Visualforce pages in your Salesforce org.  Durable Streaming adds the capability to replay any of the messages sent to the PushTopic for the last 24 hours.
 
 This is handled through the use of an Replay ID.  Every event sent through the Streaming API will have an associated ID.  With Durable Streaming, you will have the ability to provide a Replay ID (ostensibly the last ID that your client has received) and the system will send every event that has happened in the last 24 hours after that specific ID.
