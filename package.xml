@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>DurableGenericStreamingController</members>
+        <members>DurablePushTopicStreamingController</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
+        <members>DurableGenericEventDisplay</members>
+        <members>DurablePushTopicEventDisplay</members>
         <name>ApexComponent</name>
     </types>
     <types>
-        <members>*</members>
+        <members>DurableGenericStreamingDemo</members>
+        <members>DurablePushTopicStreamingDemo</members>
         <name>ApexPage</name>
     </types>
     <types>
-        <members>*</members>
+        <members>StreamingChannel</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
+        <members>DurableStreamingDemo</members>
         <name>PermissionSet</name>
     </types>
     <types>
-        <members>*</members>
+        <members>cometd</members>
+        <members>cometdReplayExtension</members>
+        <members>jquery_cometd</members>
+        <members>jquery</members>
+        <members>json2</members>
         <name>StaticResource</name>
     </types>
     <version>37.0</version>
