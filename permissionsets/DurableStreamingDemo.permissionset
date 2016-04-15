@@ -32,10 +32,10 @@
     </pageAccesses>
     <tabSettings>
         <tab>DurableGenericStreamingDemo</tab>
-        <visibility>Visibile</visibility>
+        <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
         <tab>DurablePushTopicStreamingDemo</tab>
-        <visibility>Visibile</visibility>
+        <visibility>Visible</visibility>
     </tabSettings>
 </PermissionSet>
