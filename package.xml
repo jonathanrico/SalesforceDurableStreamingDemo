@@ -16,6 +16,15 @@
         <name>ApexPage</name>
     </types>
     <types>
+        <members>Durable_Streaming_Demo</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>DurableGenericStreamingDemo</members>
+        <members>DurablePushTopicStreamingDemo</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
         <members>StreamingChannel</members>
         <name>CustomObject</name>
     </types>
