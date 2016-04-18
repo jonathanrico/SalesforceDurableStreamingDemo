@@ -8,7 +8,7 @@ public class DurablePushTopicStreamingController {
     
     public DurablePushTopicStreamingController() {
         this.channel = '/topic/' + TOPIC_NAME;
-        this.replayFrom = -1;
+        this.replayFrom = -2;
     }
     
     public PageReference getOrCreatePushChannel() {
