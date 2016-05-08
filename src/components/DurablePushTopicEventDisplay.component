@@ -31,7 +31,7 @@
 
              // Connect to the CometD endpoint
              cometd.init({
-                url: window.location.protocol+'//'+window.location.hostname+ (null != window.location.port ? (':'+window.location.port) : '') +'/cometd/37.0/',
+                url: window.location.protocol+'//'+window.location.hostname+ (null != window.location.port ? (':'+window.location.port) : '') +'/cometd/36.0/',
                 requestHeaders: { Authorization: 'OAuth {!$Api.Session_ID}'}
             });
 

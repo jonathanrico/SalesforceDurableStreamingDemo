@@ -15,7 +15,7 @@
                     
             $j.ajax({
                 url: window.location.protocol+'//'+window.location.hostname+ (null != window.location.port ? (':'+window.location.port) : '') +
-                    '/services/data/v37.0/sobjects/StreamingChannel/'+ channelId + '/push',
+                    '/services/data/v36.0/sobjects/StreamingChannel/'+ channelId + '/push',
                 headers: {
                     'Authorization': 'OAuth ' + sessionId
                 },

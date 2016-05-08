@@ -18,7 +18,7 @@ public class DurablePushTopicStreamingController {
             topic.Name = TOPIC_NAME;
             topic.Query = 'SELECT Id,Name,Website FROM ACCOUNT';
             topic.NotifyForFields = 'Referenced';
-            topic.ApiVersion = 37.0;
+            topic.ApiVersion = 36.0;
             insert topic;
             this.topicId = topic.Id;
         } else {

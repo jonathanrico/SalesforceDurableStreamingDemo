@@ -28,8 +28,8 @@ If you do not provide an ID, or the ID you provide is -1, your client will be su
 1. Create the `/u/TestStreaming` StreamingChannel by subscribing to that channel name
     * You can create the channel by using the Workbench and going to Queries > Streaming Push Topics and selecting Generic Subscriptions.  Enter the subscription as `/u/TestStreaming` and click 'Subscribe' (this will create the channel)
 2. Push an event to the new channel
-    * Query the ID of the channel by using the Workbench REST Explorer and doing a GET to `/services/data/v37.0/sobjects/StreamingChannel`.  In the response, expand recentItems to find the ID of the TestStreaming channel. Use this ID for `<CHANNEL_ID>` in the next step
-    * Do a POST to `/services/data/v37.0/sobjects/StreamingChannel/<CHANNEL_ID>/push` with a payload of:
+    * Query the ID of the channel by using the Workbench REST Explorer and doing a GET to `/services/data/v36.0/sobjects/StreamingChannel`.  In the response, expand recentItems to find the ID of the TestStreaming channel. Use this ID for `<CHANNEL_ID>` in the next step
+    * Do a POST to `/services/data/v36.0/sobjects/StreamingChannel/<CHANNEL_ID>/push` with a payload of:
         * `{ "pushEvents": [{"payload": "first push"} ]}`  
 3. Open the Visualforce Page by opening the `Durable Streaming Demo` app and clicking the `Durable Generic Streaming Demo` tab or by navigating to `/apex/DurableGenericStreamingDemo`.  This Visualforce page will auto-subscribe to `/u/TestStreaming` using Durable Generic Streaming  
     * This could fail if you haven't created the streaming channel and haven't pushed at least 1 event to that channel)
