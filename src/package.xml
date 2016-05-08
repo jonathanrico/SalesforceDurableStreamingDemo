@@ -40,5 +40,5 @@
         <members>json2</members>
         <name>StaticResource</name>
     </types>
-    <version>37.0</version>
+    <version>36.0</version>
 </Package>
